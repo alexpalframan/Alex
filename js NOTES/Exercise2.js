@@ -1,5 +1,5 @@
 //Q 1
-/*
+
 let userInput = prompt("Enter a number to check if its even or odd")
 
 if (userInput%2==0){
@@ -51,7 +51,7 @@ if (sideOne==sideTwo && sideOne==sideThree && sideTwo==sideThree){
 }else {
     console.log("The triangle is Isosceles");
 }
-*/
+
  
 //Q5
 
@@ -70,4 +70,6 @@ if (pickOperator == "add"){
     console.log(pickNumberOne / pickNumberTwo);
 } else if (pickOperator == "modulus"){
     console.log(pickNumberOne % pickNumberTwo);
+} else {
+    console.log("invalid operator!");
 }

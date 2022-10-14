@@ -55,3 +55,23 @@ case "B":
 default:
     console.log("Grade not recognised");
 }
+
+
+// while loop executes a statement
+// as long as the statement is true
+
+let count=0;
+    while(count<10){
+        console.log(count);
+        count++; // count= count + 1
+
+
+    }
+
+// do while loop
+// always runs the code at least once
+
+do{
+    console.log(count);
+    count++
+}while(count<20);

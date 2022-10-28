@@ -56,7 +56,7 @@ let result = 0
 // find the sum
 // priont the result
 
-let numberFromUser = Number(prompt("Enter a number to FIND THE SUM OF THE FCKN DIGITS"));
+let numberFromUser = Number(prompt("Enter a number to FIND THE SUM OF THE DIGITS"));
 let resultOfSum = 0;
 
 while (numberFromUser) {

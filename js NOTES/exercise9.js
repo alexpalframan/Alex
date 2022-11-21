@@ -21,9 +21,10 @@ if (sum == number) {
 else {
     console.log(`${number} is not an Armstrong number.`);
 }
-*/
+
 // q2
 let factorialChoice = Number(prompt("Enter a number to find the factorial of said number"));
+ let originalNumber = factorialChoice
 let factorial = 1
 let total = 0;
 while(factorialChoice>0){
@@ -33,19 +34,29 @@ while(factorialChoice>0){
 for(let f=1; f <= u ; f++){
     factorial *=f;
 }
-console.log(factorial) 
 total = total+factorial
+factorial = 1;
 }
-if (total==factorialChoice){
-    console.log(total + " is a strong number")
+if (total==originalNumber){
+    console.log(originalNumber + " is a strong number")
 }else{
-    console.log(total + " isnt a strong number")
+    console.log(originalNumber + " isnt a strong number")
 }
 
+*/
+//q3
+
+let num = Number(prompt("Enter a number to be reversed"));
+let reversed_number=0
 
 
-
-
+while (num != 0) {
+    reversed_number *= 10;
+    reversed_number += num % 10;
+    num -= num % 10;
+    num /= 10;
+    }
+console.log(reversed_number)
 
 
 

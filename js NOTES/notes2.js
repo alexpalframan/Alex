@@ -111,3 +111,69 @@ for(;k<2;){
 
 }
 
+// ARRAYS
+/*
+the array object allows you to store
+ multiple values in a single variable
+it stores a fixed size, sequential collection
+ of elements of the same or mixed type
+*/
+
+// TO CREATE AN ARRAY
+
+let myArray = new Array("apples", "oranges");
+let myArray2 = ["apples","oranges"];
+
+/*
+TO ACCESS THE ELEMENTS OF AN ARRAY WE USE INDEXING
+INDEXING IS WHEN YOU TYPE THE ARRAY NAME FOLLOWED
+BY SQUARE BRACKETS THE NUMBER U PUT IN BEWTEEN THE SQUARE BRACKETS 
+IN THE NUMBER OF THE ELEMENT YOU WISH TO ACCESS IN THE ARRAY
+*/
+
+// ALL ARRAYS START WITH INDEX VALUE 0
+
+document.write(myArray2[0]);//prints apples
+document.write(myArray2[1]);//prints oranges
+
+// TO CHANGE AN ARRAY ELEMENT
+// USE INDEXING TO LOCATE THE ELEMENT AND THEN
+// AN ASSIGNMENT OPERATION TO ASSIGN A NEW VALUE
+
+myArray2[0] = "lemon"
+document.write(myArray2[0]);
+document.write("<br>")
+//very important!!!!!!!!
+document.write(myArray2);
+myArray2[10] = "test"
+document.write(myArray2)
+
+// to add elements to an array you can use the
+// push command, they will be pushed on to the 
+//end of the array
+
+myArray2.push("Lime")
+
+//to remove the last element from an array you can use the pop command
+
+myArray2.pop(); // this removes the last element
+
+//to create an empty array you can use
+// the new Array() command on a pair of empty
+// square brackets
+
+let myArray3 = new Array();
+let myArray4 = [];
+
+//TO USE A FOR LOOP TO ACCESS THE ARRAY ELEMENTS
+//TO ADD ELEMENTS USING A FOR LOOP
+
+for (let i=0; i<10;i++){
+    myArray4[i]=i;
+
+}
+
+document.write("<br>")
+document.write(myArray4)
+document.write("<br>")
+document.write(myArray4.length)//tells no of items in array
